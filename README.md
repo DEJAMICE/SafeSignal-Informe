@@ -26,3 +26,37 @@ Creemos que al implementar un botón de emergencia dentro de la aplicación, el 
 | 6.- Hipótesis | 7.- ¿Qué es lo más importante que necesitamos aprender primero? | 8.- ¿Cuál es la menor cantidad de trabajo que necesitamos hacer para resolver las dudas? |
 | :--- | :--- | :--- |
 | **Hipótesis 1 (Reacción):** Creemos que al integrar un botón IoT físico con la app, minimizaremos la fricción al pedir auxilio. Lo sabremos cuando el 70% de los usuarios detone una alerta en menos de 5 segundos en simulacros controlados.<br><br>**Hipótesis 2 (Prevención):** Creemos que proyectar mapas de riesgo y trazar desvíos mediante IA hará que el usuario sea más precavido. Lo sabremos cuando más del 60% de la base acepte modificar su trayecto basándose en las sugerencias del sistema.<br><br>**Hipótesis 3 (Percepción):** Creemos que la funcionalidad de rastreo continuo con contactos clave incrementará la confianza urbana. Lo sabremos cuando el 80% de los testeadores afirme sentirse más resguardado. | El mayor riesgo de adopción reside en la confianza y la usabilidad. Necesitamos validar si el público objetivo está dispuesto a permitir el rastreo constante de su ubicación a cambio de seguridad, si ven factible portar un dispositivo físico adicional (el botón IoT), y si confían en el criterio de la Inteligencia Artificial para dictar sus rutas por la ciudad. | Para mitigar riesgos técnicos y comerciales, la validación se centrará en construir un MVP (Producto Mínimo Viable) limitado al rastreo y la alerta rápida. Realizaremos simulacros de pánico con usuarios del segmento objetivo para cronometrar la respuesta, complementados con entrevistas de usabilidad para medir el nivel de fricción y la percepción de privacidad frente al monitoreo. |
+
+**2.3.2. User Task Matrix**
+
+En esta parte se identificaran las tareas escenciales que realizan los usuarios objetivos para alcanzar sus metas en cuanto a la prevencion y seguridad urbana.
+
+**Segmento #1 – Trabajadores**
+
+| Tareas | Frecuencia | Importancia |
+| :--- | :---: | :---: |
+| Notificar ubicación actual a familiares o colegas | Medium | High |
+| Compartir coordenadas en vivo (por mensajería o plataformas) | Medium | High |
+| Desviar trayectos para esquivar zonas críticas | Always | High |
+| Planificar rutas de desplazamiento de menor riesgo | High | High |
+| Priorizar calles con alta afluencia e iluminación pública | Always | High |
+| Mantener vigilancia activa del entorno ante anomalías | Always | High |
+| Movilizarse mediante servicios de transporte formales o apps | Always | High |
+| Minimizar la manipulación del teléfono en vía pública | High | Medium |
+| Sincronizar tiempos estimados de llegada al hogar u oficina | Medium | Medium |
+| Restringir desplazamientos en franjas horarias de alta peligrosidad | Low | Medium |
+
+**Segmento 2 – Estudiantes**
+
+| Tareas | Frecuencia | Importancia |
+| :--- | :---: | :---: |
+| Avisar a familiares o amigos sobre su ubicación | High | High |
+| Compartir ubicación en tiempo real (por apps o mensajes) | High | High |
+| Evitar zonas peligrosas durante sus trayectos | Always | High |
+| Elegir rutas más seguras (aunque sean más largas) | Medium | High |
+| Caminar por zonas iluminadas o transitadas | Always | High |
+| Estar atento al entorno (personas sospechosas, movimientos) | Always | High |
+| Usar transporte considerado más seguro (apps, taxis formales, etc.) | High | Medium |
+| Reducir el uso del celular en la calle | Always | High |
+| Coordinar horarios de llegada con familiares o conocidos | High | Medium |
+| Evitar salir en horarios considerados peligrosos | Medium | High |
