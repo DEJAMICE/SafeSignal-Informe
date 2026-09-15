@@ -1,1 +1,15 @@
+## 2.1.2. Estrategias y tácticas frente a competidores
 
+A partir del análisis competitivo realizado, SafeSignal define las siguientes estrategias y tácticas preliminares para afrontar las fortalezas de la competencia, explotar sus debilidades y navegar el contexto de oportunidades y amenazas del mercado:
+
+- **Estrategia 1: Diferenciación IoT frente a la fortaleza de software de la competencia.**
+  Los competidores internacionales consolidados poseen la fortaleza de contar con aplicaciones móviles altamente desarrolladas. Para afrontar esta barrera, SafeSignal aprovechará la oportunidad de integrar dispositivos IoT (botones físicos de pánico) con IA. La táctica consiste en desarrollar alianzas con fabricantes locales de hardware para ofrecer un ecosistema preventivo que no dependa de manipular el celular en la vía pública, un diferenciador clave inexistente en la competencia actual.
+
+- **Estrategia 2: Adaptación local para explotar las debilidades extranjeras.**
+  Aplicaciones como bSafe y Citizen presentan la debilidad de no estar adaptadas a la infraestructura urbana ni a las dinámicas delictivas específicas de Lima. SafeSignal explotará esta falta de contextualización posicionándose exclusivamente para el transeúnte local. La táctica incluye el desarrollo de mapas de calor alimentados con bases de datos de la PNP y el INEI, aprovechando así la oportunidad de personalizar las alertas de rutas seguras con alta precisión.
+
+- **Estrategia 3: Modelo freemium para mitigar amenazas del entorno económico.**
+  Una amenaza latente en el mercado es la baja disposición de pago por aplicaciones móviles frente a un poder adquisitivo limitado de los estudiantes y trabajadores jóvenes. Para mitigar esta amenaza, se implementará un modelo freemium. La táctica asegurará una adopción masiva ofreciendo funciones vitales gratis (SOS, ubicación) y estableciendo convenios B2B con universidades para subsidiar las funciones avanzadas con IA a los alumnos.
+
+- **Estrategia 4: Construcción de comunidad ante la falta de confianza.**
+  Una debilidad compartida de los competidores es su baja tasa de retención en Latinoamérica debido a la desconfianza del usuario en plataformas genéricas. SafeSignal capitalizará esta debilidad cultivando la confianza mediante el despliegue de campañas de concientización. La táctica se apoyará en formar alianzas estratégicas con municipalidades y comités de seguridad vecinal, publicando reportes de impacto social que validen a la plataforma.

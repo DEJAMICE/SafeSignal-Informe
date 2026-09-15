@@ -1,1 +1,35 @@
+## 2.5. Ubiquitous Language
 
+El equipo de SafeSignal ha construido el siguiente glosario de lenguaje ubicuo con el fin de establecer una comprensión común y sin ambigüedades de los conceptos del dominio de negocio (seguridad urbana personal), asegurando que todos los miembros del equipo y stakeholders empleen la misma terminología a lo largo del proyecto. Este lenguaje debe reflejarse consistentemente tanto en las conversaciones del equipo como en los artefactos de requerimientos (épicas, User Stories) y de diseño.
+
+| N° | Término (Ubiquitous Language) | Definición |
+|----|-------------------------------|------------|
+| 1 | **User** *(Usuario)* | Persona (estudiante o trabajador) que se desplaza por zonas urbanas de Lima Metropolitana y utiliza SafeSignal para prevenir y actuar ante situaciones de riesgo. |
+| 2 | **Trusted Contact** *(Contacto de Confianza)* | Persona designada por el usuario (familiar, amigo o conocido) que recibe notificaciones y ubicación en tiempo real cuando se activa una alerta de emergencia. |
+| 3 | **Priority Contact** *(Contacto Prioritario)* | Subconjunto de los contactos de confianza configurado por el usuario para ser notificado con mayor urgencia o en primer lugar ante una emergencia. |
+| 4 | **SOS Alert** *(Alerta SOS)* | Señal de emergencia inmediata que el usuario activa (manual o automáticamente) para solicitar ayuda urgente ante una situación de peligro real. |
+| 5 | **Silent Alert** *(Alerta Silenciosa)* | Alerta de emergencia que el usuario activa de forma discreta, sin sonidos ni indicaciones visibles en el dispositivo, para no alertar a un posible agresor. |
+| 6 | **Panic Button** *(Botón de Pánico / Botón Físico SOS)* | Dispositivo IoT físico, independiente del celular, que el usuario vincula a su cuenta y que permite activar una Alerta SOS con una sola pulsación. |
+| 7 | **Smart Sensor** *(Sensor Inteligente)* | Dispositivo IoT complementario al botón de pánico que monitorea variables del entorno o del usuario (por ejemplo, movimiento brusco) para apoyar la detección de riesgo. |
+| 8 | **Anomaly Detection** *(Detección de Anomalía)* | Identificación automática, a partir de los dispositivos IoT o sensores, de un patrón inusual (caída, inmovilidad prolongada, movimiento brusco) que puede indicar una situación de riesgo para el usuario. |
+| 9 | **Emergency Response** *(Respuesta de Emergencia)* | Conjunto de acciones que se desencadenan al activarse una Alerta SOS: notificación a contactos de confianza, envío de ubicación y, de corresponder, alerta a las autoridades. |
+| 10 | **Emergency Authority** *(Autoridad de Emergencia)* | Entidad externa (Policía Nacional del Perú, serenazgo, central de emergencias) con la que SafeSignal se conecta para escalar una alerta de emergencia. |
+| 11 | **Real-Time Location Sharing** *(Compartir Ubicación en Tiempo Real)* | Funcionalidad mediante la cual el usuario transmite su posición geográfica actual, de forma continua, a sus contactos de confianza durante una emergencia o un trayecto. |
+| 12 | **Voluntary Tracking Mode** *(Modo Seguimiento Voluntario)* | Modo en el que el usuario, sin estar en una emergencia, decide compartir preventivamente su ubicación y trayecto con sus contactos de confianza durante un desplazamiento. |
+| 13 | **Trajectory** *(Trayecto / Recorrido)* | Ruta recorrida por el usuario durante un desplazamiento, registrada por la aplicación mientras el modo de seguimiento está activo. |
+| 14 | **Risk Zone** *(Zona de Riesgo)* | Área geográfica identificada, mediante reportes comunitarios y datos de entidades como la PNP e INEI, como propensa a incidentes de inseguridad. |
+| 15 | **Safe Route** *(Ruta Segura)* | Trayecto sugerido por SafeSignal entre un origen y un destino, calculado para minimizar el paso del usuario por zonas de riesgo. |
+| 16 | **Alternative Route** *(Ruta Alternativa)* | Ruta recalculada y sugerida automáticamente al usuario cuando se detecta un nuevo riesgo o incidente en su ruta segura original. |
+| 17 | **Incident** *(Incidente)* | Evento real de inseguridad (robo, acoso, agresión, entre otros) ocurrido en una ubicación específica y percibido como una amenaza para la seguridad del usuario. |
+| 18 | **Incident Report** *(Reporte de Incidente)* | Registro que un usuario crea dentro de la aplicación para documentar un incidente ocurrido, incluyendo ubicación, descripción y, opcionalmente, imágenes. |
+| 19 | **Community Report** *(Reporte Comunitario)* | Reporte de incidente visible para otros usuarios de la comunidad SafeSignal, utilizado para mantenerlos informados sobre zonas o situaciones de riesgo cercanas. |
+| 20 | **Report Validation** *(Validación de Reportes Comunitarios)* | Proceso mediante el cual otros usuarios de la comunidad confirman o refutan la veracidad de un reporte comunitario, contribuyendo a su fiabilidad. |
+| 21 | **False Alarm** *(Falsa Alarma)* | Alerta SOS o reporte de incidente que, tras ser revisado, se determina que no correspondía a una situación de riesgo real. |
+| 22 | **Alert History** *(Historial de Alertas)* | Registro cronológico de todas las alertas SOS activadas, canceladas o resueltas por el usuario, disponible para su consulta posterior. |
+| 23 | **Insecurity Trend** *(Tendencia de Inseguridad)* | Patrón identificado a partir del análisis histórico de incidentes y alertas (por ejemplo, horarios o zonas con mayor frecuencia de incidentes) que SafeSignal presenta al usuario para apoyar su toma de decisiones. |
+| 24 | **High-Risk Time Window** *(Horario Peligroso)* | Franja horaria en la que, según las estadísticas históricas de incidentes, aumenta la probabilidad de que un usuario sufra una situación de inseguridad. |
+| 25 | **At-Risk User** *(Usuario en Situación de Riesgo)* | Usuario que en un momento determinado transita por una zona de riesgo, se encuentra en un horario peligroso o ha activado una alerta de emergencia. |
+| 26 | **Urban Security** *(Seguridad Urbana)* | Ámbito de negocio de SafeSignal, referido a la protección de las personas frente a situaciones de inseguridad ciudadana durante sus desplazamientos en la ciudad. |
+| 27 | **Freemium Model** *(Modelo Freemium)* | Modelo de negocio de SafeSignal en el que las funcionalidades básicas de seguridad (Alerta SOS, compartir ubicación, mapa de zonas de riesgo) son gratuitas, y las funcionalidades avanzadas (monitoreo continuo, rutas con IA, conexión con autoridades) requieren una suscripción de pago. |
+
+> *"Como plantea Eric Evans en Domain-Driven Design: Tackling Complexity in the Heart of Software, contar con un Ubiquitous Language compartido entre el equipo de desarrollo y los expertos del dominio reduce la ambigüedad y facilita la traducción del modelo de negocio al modelo de software."*
